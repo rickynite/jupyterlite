@@ -1,0 +1,2 @@
+(self.webpackChunk_JUPYTERLAB_CORE_OUTPUT=self.webpackChunk_JUPYTERLAB_CORE_OUTPUT||[]).push([[6588],{6588:(a,t,r)=>{"use strict";r.r(t),r.d(t,{default:()=>n});var e=r(86082);const n=[{id:"@jupyterlab/translation:translator",activate:a=>new e.TranslationManager,autoStart:!0,provides:e.ITranslator}]}}]);
+//# sourceMappingURL=6588.bundle.js.map
