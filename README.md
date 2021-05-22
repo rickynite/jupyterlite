@@ -1,3 +1,3 @@
 # jupyterlite
 
-Example JupyterLite site using GitHub Pages
+Example [JupyterLite](https://jupyterlite.readthedocs.io/en/latest/) site using GitHub Pages
