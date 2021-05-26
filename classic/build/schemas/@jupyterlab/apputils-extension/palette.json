@@ -1,21 +1,3 @@
-{
-  "title": "Command Palette",
-  "description": "Command palette settings.",
-  "jupyter.lab.shortcuts": [
-    {
-      "command": "apputils:activate-command-palette",
-      "keys": ["Accel Shift C"],
-      "selector": "body"
-    }
-  ],
-  "properties": {
-    "modal": {
-      "title": "Modal Command Palette",
-      "description": "Whether the command palette should be modal or in the left panel.",
-      "type": "boolean",
-      "default": true
-    }
-  },
-  "type": "object",
-  "additionalProperties": false
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:79fa5654d0a534de31c6aa6aab196c74d78e4d9bacb59506958d25f5403ce1cf
+size 511

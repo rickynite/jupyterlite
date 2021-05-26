@@ -1,2 +1,3 @@
-(self.webpackChunk_JUPYTERLAB_CORE_OUTPUT=self.webpackChunk_JUPYTERLAB_CORE_OUTPUT||[]).push([[6370,7599],{36370:(e,t,s)=>{"use strict";s.r(t),s.d(t,{ThemeManager:()=>l});var n=s(80430),i=s(82090);class l extends n.ThemeManager{constructor(e){super(e),this._link=void 0,this._themesUrl="",this._themesUrl=e.url}loadCSS(e){const t=i.URLExt.join(this._themesUrl,e);return new Promise(((e,s)=>{const n=document.createElement("link");n.setAttribute("rel","stylesheet"),n.setAttribute("type","text/css"),n.setAttribute("href",t),n.addEventListener("load",(()=>{e(void 0)})),n.addEventListener("error",(()=>{s(`Stylesheet failed to load: ${t}`)})),this._link=n,this._unloadCSS(),document.body.appendChild(n)}))}_unloadCSS(){var e,t;null===(t=null===(e=this._link)||void 0===e?void 0:e.parentElement)||void 0===t||t.removeChild(this._link)}}}}]);
-//# sourceMappingURL=6370.bundle.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:fbd8cfbfc530ff39f395f93a810dbc91b71968943fc4f4651550170211b4ffe6
+size 879

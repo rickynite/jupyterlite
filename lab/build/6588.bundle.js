@@ -1,2 +1,3 @@
-(self.webpackChunk_JUPYTERLAB_CORE_OUTPUT=self.webpackChunk_JUPYTERLAB_CORE_OUTPUT||[]).push([[6588],{6588:(a,t,r)=>{"use strict";r.r(t),r.d(t,{default:()=>n});var e=r(86082);const n=[{id:"@jupyterlab/translation:translator",activate:a=>new e.TranslationManager,autoStart:!0,provides:e.ITranslator}]}}]);
-//# sourceMappingURL=6588.bundle.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:2f81b11c1a1bcb463925a68dbd5d30223072ad2a054e0af9408f01e3cf5d54da
+size 344

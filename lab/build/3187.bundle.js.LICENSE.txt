@@ -1,6 +1,3 @@
-/*!
-    localForage -- Offline Storage, Improved
-    Version 1.9.0
-    https://localforage.github.io/localForage
-    (c) 2013-2017 Mozilla, Apache License 2.0
-*/
+version https://git-lfs.github.com/spec/v1
+oid sha256:ab0543a13b5e01e136043dcbfe240ee611fc0223bcbf35aa00e3a4331a0cf4df
+size 162

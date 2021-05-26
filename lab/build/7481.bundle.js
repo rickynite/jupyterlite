@@ -1,2 +1,3 @@
-(self.webpackChunk_JUPYTERLAB_CORE_OUTPUT=self.webpackChunk_JUPYTERLAB_CORE_OUTPUT||[]).push([[7481],{7481:(t,a,e)=>{"use strict";e.r(a),e.d(a,{default:()=>T});var o=e(97688),r=e(26437),s=e(86082);const T={id:"@jupyterlab/celltags",autoStart:!0,requires:[o.INotebookTools,o.INotebookTracker,s.ITranslator],activate:(t,a,e,o)=>{const s=new r.TagTool(e,t,o);a.addItem({tool:s,rank:1.6})}}}}]);
-//# sourceMappingURL=7481.bundle.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:68f37935dd508e6639551b46d4c24a7bae46168f08c2d948a18d1d727827d024
+size 431

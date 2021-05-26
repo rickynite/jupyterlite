@@ -1,19 +1,3 @@
-{
-  "title": "Notebook Tooltips",
-  "description": "Notebook tooltip settings.",
-  "jupyter.lab.shortcuts": [
-    {
-      "command": "tooltip:dismiss",
-      "keys": ["Escape"],
-      "selector": "body.jp-mod-tooltip .jp-Notebook"
-    },
-    {
-      "command": "tooltip:launch-notebook",
-      "keys": ["Shift Tab"],
-      "selector": ".jp-Notebook.jp-mod-editMode .jp-InputArea-editor:not(.jp-mod-has-primary-selection):not(.jp-mod-in-leading-whitespace)"
-    }
-  ],
-  "properties": {},
-  "additionalProperties": false,
-  "type": "object"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:dfed063b85814563ce1120490ddc4b1503a29457cf48098aaa23e877946d5279
+size 542

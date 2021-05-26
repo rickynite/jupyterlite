@@ -1,16 +1,3 @@
-{
-  "jupyter.lab.setting-icon": "ui-components:settings",
-  "jupyter.lab.setting-icon-label": "Status Bar",
-  "title": "Status Bar",
-  "description": "Status Bar settings.",
-  "properties": {
-    "visible": {
-      "type": "boolean",
-      "title": "Status Bar Visibility",
-      "description": "Whether to show status bar or not",
-      "default": true
-    }
-  },
-  "additionalProperties": false,
-  "type": "object"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7620b3bd331d8ced0110d5a18eb16e0515dce3098927e3478cc08b98c817212e
+size 419

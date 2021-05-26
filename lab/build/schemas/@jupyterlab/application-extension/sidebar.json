@@ -1,20 +1,3 @@
-{
-  "jupyter.lab.setting-icon-label": "Sidebar",
-  "title": "Sidebar",
-  "description": "Sidebar layout settings.",
-  "properties": {
-    "overrides": {
-      "type": "object",
-      "title": "Overrides",
-      "default": {},
-      "description": "Overrides for where to show sidebar items\ne.g., {\"tab-manager\": \"right\"}",
-      "properties": {},
-      "additionalProperties": {
-        "type": "string",
-        "enum": ["left", "right"]
-      }
-    }
-  },
-  "additionalProperties": false,
-  "type": "object"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3e53570f323c4f5dd407733cf2964f4ff52ad5dd80c8ee88265bc6997ffb9216
+size 517

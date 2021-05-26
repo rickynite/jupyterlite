@@ -1,2 +1,3 @@
-(self.webpackChunk_JUPYTERLAB_CORE_OUTPUT=self.webpackChunk_JUPYTERLAB_CORE_OUTPUT||[]).push([[7469,275],{60275:(e,t,a)=>{"use strict";a.r(t),a.d(t,{default:()=>i});var r=a(80430),s=a(86082);const i={id:"@jupyterlab/theme-light-extension:plugin",requires:[r.IThemeManager,s.ITranslator],activate:(e,t,a)=>{const r=a.load("jupyterlab");t.register({name:"JupyterLab Light",displayName:r.__("JupyterLab Light"),isLight:!0,themeScrollbars:!1,load:()=>t.loadCSS("@jupyterlab/theme-light-extension/index.css"),unload:()=>Promise.resolve(void 0)})},autoStart:!0}}}]);
-//# sourceMappingURL=7469.bundle.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:129aa18e97b1447a7520e4a57c01d04b10697eecaffec8631659c61f41d49078
+size 600

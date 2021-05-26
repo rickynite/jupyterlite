@@ -1,32 +1,3 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>JupyterLite Classic - Notebook</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      id="jupyter-lite-main"
-      rel="preload"
-      href="../build/bundle.js"
-      main="index"
-      as="script"
-    />
-    <script
-      id="jupyter-config-data"
-      type="application/json"
-      data-jupyter-lite-root="../.."
-    >
-      {}
-    </script>
-    <script>
-      (async function() {
-        const { pathname, origin, search, hash } = window.location;
-        if (pathname.match(/(index.html|\/)$/) == null) {
-          window.location.href = `${origin}${pathname}/${search}${hash}`;
-          return;
-        }
-        await import('../../config-utils.js');
-      })();
-    </script>
-  </head>
-</html>
+version https://git-lfs.github.com/spec/v1
+oid sha256:426ab4b292668db52288e6d289d38b88df56abcb0872fe6accb5b5450544465f
+size 818

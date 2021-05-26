@@ -1,2 +1,3 @@
-(self.webpackChunk_JUPYTERLAB_CORE_OUTPUT=self.webpackChunk_JUPYTERLAB_CORE_OUTPUT||[]).push([[5874,3975],{43975:(t,a,e)=>{"use strict";e.r(a),e.d(a,{default:()=>s});var n=e(82090),o=e(71187),r=e(29942);const i={id:"@jupyterlab/mathjax2-extension:plugin",autoStart:!0,provides:o.ILatexTypesetter,activate:()=>{const t=n.PageConfig.getOption("fullMathjaxUrl"),a=n.PageConfig.getOption("mathjaxConfig");if(!t){const t=`${i.id} uses 'mathJaxUrl' and 'mathjaxConfig' in PageConfig to operate but 'mathJaxUrl' was not found.`;throw new Error(t)}return new r.MathJaxTypesetter({url:t,config:a})}},s=i}}]);
-//# sourceMappingURL=5874.bundle.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:4b37bf77c6354a7e7a022a9c88e9b80f14e8c147a26b7fd9eb2155b1841011f3
+size 639

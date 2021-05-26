@@ -1,3 +1,3 @@
-//! moment.js
-
-//! moment.js locale configuration
+version https://git-lfs.github.com/spec/v1
+oid sha256:03ebf59709ae217d43a4d275303cca0cc5afedffdde9c8c794638212fb6185d6
+size 50

@@ -1,8 +1,3 @@
-{
-  "jupyter-lite-schema-version": 0,
-  "jupyter-config-data": {
-    "fullStaticUrl": "./build",
-    "settingsUrl": "./build/schemas",
-    "themesUrl": "./build/themes"
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fbbc6629ef629f2a2c2aa46fdabaf1da170cf6c609e113e21c74575642ee0886
+size 175
