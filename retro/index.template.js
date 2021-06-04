@@ -17,7 +17,8 @@ const serverMods = [
 
 const mimeExtensionsMods = [
   import('@jupyterlite/iframe-extension'),
-  import('@jupyterlab/json-extension')
+  import('@jupyterlab/json-extension'),
+  import('@jupyterlab/vega5-extension')
 ];
 
 const disabled = JSON.parse(PageConfig.getOption('disabledExtensions') || '[]');
@@ -59,7 +60,10 @@ async function main() {
     // @retrolab plugins
     // do not enable the document opener from RetroLab
     require('@retrolab/application-extension').default.filter(
-      ({ id }) => id !== '@retrolab/application-extension:opener'
+      ({ id }) => ![
+        '@retrolab/application-extension:logo',
+        '@retrolab/application-extension:opener'
+      ].includes(id)
     ),
     require('@retrolab/help-extension'),
     require('@retrolab/notebook-extension'),

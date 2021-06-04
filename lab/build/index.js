@@ -22,6 +22,7 @@ const disabled = [
   ...JSON.parse(PageConfig.getOption('disabledExtensions') || '[]'),
   '@jupyterlab/apputils-extension:themes',
   '@jupyterlab/apputils-extension:workspaces',
+  '@jupyterlab/application-extension:logo',
   '@jupyterlab/application-extension:tree-resolver',
   // TODO: improve/replace resolver and main to avoid redirect issues
   // @see https://github.com/jtpio/jupyterlite/issues/22
@@ -116,6 +117,16 @@ async function main() {
   if (!federatedExtensionNames.has('@jupyterlab/json-extension')) {
     try {
       let ext = require('@jupyterlab/json-extension');
+      for (let plugin of activePlugins(ext)) {
+        mimeExtensions.push(plugin);
+      }
+    } catch (e) {
+      console.error(e);
+    }
+  }
+  if (!federatedExtensionNames.has('@jupyterlab/vega5-extension')) {
+    try {
+      let ext = require('@jupyterlab/vega5-extension');
       for (let plugin of activePlugins(ext)) {
         mimeExtensions.push(plugin);
       }
@@ -290,6 +301,16 @@ async function main() {
   if (!federatedExtensionNames.has('@jupyterlab/launcher-extension')) {
     try {
       let ext = require('@jupyterlab/launcher-extension');
+      for (let plugin of activePlugins(ext)) {
+        pluginsToRegister.push(plugin);
+      }
+    } catch (e) {
+      console.error(e);
+    }
+  }
+  if (!federatedExtensionNames.has('@jupyterlab/logconsole-extension')) {
+    try {
+      let ext = require('@jupyterlab/logconsole-extension');
       for (let plugin of activePlugins(ext)) {
         pluginsToRegister.push(plugin);
       }
